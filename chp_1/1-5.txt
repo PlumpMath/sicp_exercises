@@ -1,0 +1,2 @@
+Normal-order evaluation will cause an infinite loop, since (p) will be expanded, and (p) calls itself.
+Applicative-order evaluation will result in 0, since (p) will never be expanded, because (= x 0) results in 0.
