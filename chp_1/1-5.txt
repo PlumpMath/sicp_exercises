@@ -1,2 +1,5 @@
 Applicative-order evaluation will cause an infinite loop, since (p) will be expanded, and (p) calls itself.
 Normal-order evaluation will result in 0, since (p) will never be expanded, because (= x 0) results in 0.
+
+normal = lazy
+applicative = eager
