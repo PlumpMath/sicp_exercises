@@ -1,0 +1,2 @@
+Because new-if is a procedure, the arguments are expanded and evaluated (applicative-order evaluation) when passed in.
+Since sqrt-iter calls itself, and infinite recursion occurs.
