@@ -1,0 +1,12 @@
+High-level proof overview:
+
+Assume 
+
+φ^n = φ^(n-1) + φ^(n-2)
+1 = φ^(-1) + φ^(-2)
+1 = 1
+
+so [φ^n = φ^(n-1) + φ^(n-2)] is true
+
+ψ^n alternates sign with frequency 1, and is bound by +/- 1, with |ψ^n| decreasing
+Therefore, [|ψ^n-1 - ψ^n-2| < 0]
