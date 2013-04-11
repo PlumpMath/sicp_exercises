@@ -1,4 +1,4 @@
 I'm not drawing an ASCII tree
 
-Each branch produces 2 more branches (which in turn produce 2 branches each, etc).
-The algorithm grows in O(2^n) for space and time.
+Each branch produces a level down in the tree for 1 fewer currency or amount decreawse.
+The algorithm grows in O(n^2) for time and O(n) for space.
