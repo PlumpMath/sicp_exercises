@@ -1,0 +1,4 @@
+I'm not drawing an ASCII tree
+
+Each branch produces 2 more branches (which in turn produce 2 branches each, etc).
+The algorithm grows in O(2^n) for space and time.
