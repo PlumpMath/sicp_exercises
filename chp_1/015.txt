@@ -1,0 +1,2 @@
+p is called 5 times.
+It grows in order of O(log(n))
