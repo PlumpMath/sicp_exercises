@@ -1,0 +1,17 @@
+a0 = bq + aq + ap
+b0 = bp + aq
+
+b' = (b0)p + (a0)q
+   = (bp + aq)p + (bq + aq + ap)q
+   = bp^2 + aqp + bq^2 + aq^2 + aqp
+   = (p^2 + q^2)b + (q^2 + 2pq)a
+
+->
+  p' = p^2 + q^2
+  q' = q^2 + 2pq
+
+(define (p' p q)
+  (+ (square p) (square q)))
+
+(define (q' p q)
+  (+ (square q) (* 2 p q)))
