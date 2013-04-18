@@ -1,0 +1,2 @@
+By manually squaring expmod, expmod gets called twice for each evaluation.  
+This grows exponentially, making the process take O(2^(log n)) = O(n) time.
