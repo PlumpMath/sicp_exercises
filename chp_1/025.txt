@@ -1,0 +1,3 @@
+This argument holds mathematcial water.
+Remainder is the last argument applied to the expmod arguments, which otherwise behaves exactly like fast-expt.
+By delaying the remainder to the end, we can reuse fast-expt.
